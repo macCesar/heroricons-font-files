@@ -73,7 +73,7 @@ Now, you can use them in your app's user interface elements, including `Labels`,
 Remember to credit **Tailwind Labs** for their fantastic work on the Heroicons collection, as all intellectual properties and design credits belong to them. This project simply aims to facilitate the integration of these icons into mobile applications, respecting their intellectual property rights.
 
 ## Example App
-Check out the Example App in the `app` folder, created to showcase the seamless integration of Heroicons into a mobile application developed with Titanium SDK. Heroicons, designed by Tailwind Labs, are known for their beautiful and simple design, making them an excellent addition to your mobile app.
+Check out the Example App in the `app` folder, created to showcase the seamless integration of Heroicons into a mobile application developed with Titanium SDK, PurgeTSS and TiKit UI Components.
 
 <p align="center">
   <img src="./images/example-app.png" alt="Heroicons" width="480">
