@@ -1,22 +1,37 @@
-# Welcome to your TiDev Titanium Mobile Project
+# Example App with Heroicons
 
-This is a blank project.  Start by editing your application's app.js to
-make your first mobile project using Titanium.
+This is an example app created to showcase the seamless integration of Heroicons into a mobile application developed with Titanium SDK. Heroicons, designed by Tailwind Labs, are known for their beautiful and simple design, making them an excellent addition to your mobile app.
 
-## Contributing
+## Overview
 
-Titanium is an open source project.  Titanium wouldn't be where it is now without contributions by the community. Please consider forking Titanium to improve, enhance or fix issues. If you feel like the community will benefit from your fork, please open a pull request.
+The example app features a TabGroup with multiple tabs, with the primary focus on the "Icons Tab." In this tab, we demonstrate how to use Heroicons in your mobile app. Here's what you'll find:
 
-To protect the interests of the Titanium contributors, Appcelerator, customers and end users we require contributors to sign a Contributors License Agreement (CLA) before we pull the changes into the main repository. Our CLA is simple and straightforward - it requires that the contributions you make to any Appcelerator open source project are properly licensed and that you have the legal authority to make those changes. This helps us significantly reduce future legal risk for everyone involved. It is easy, helps everyone, takes only a few minutes, and only needs to be completed once.
+- Showcases the usage of Heroicons in both outline and solid styles.
+- Displays a variety of Heroicons, demonstrating their versatility and adaptability for your app's user interface.
+- The `TabGroup` showcases the potential use of TiKit UI's `Tab` Component and Icon Fonts for a cross-platform app, eliminating the need to create separate images with different resolutions, colors, and densities.
 
-[You can digitally sign the CLA](https://github.com/tidev/organization-docs/blob/main/AUTHORIZED_CONTRIBUTORS.md) online. Please indicate your email address in your first pull request so that we can make sure that will locate your CLA.  Once you've submitted it, you no longer need to send one for subsequent submissions.
+## Usage
 
-## Stay Connected
+To run this example app and explore the usage of Heroicons in a Titanium-based mobile application:
 
-For the latest information, please find us on Twitter: [Titanium SDK](https://twitter.com/titaniumsdk) and [TiDev](https://twitter.com/tidevio).
+1. Ensure you have the Titanium SDK and PurgeTSS set up in your development environment.
 
-Join our growing Slack community by visiting https://slack.tidev.io
+2. Clone or download this repository to your local machine.
 
-## Legal
+3. Open the app in your Titanium Studio or favorite code editor.
 
-Titanium is a registered trademark of TiDev Inc. All Titanium trademark and patent rights were transferred and assigned to TiDev Inc. on 4/7/2022. Please see the LEGAL information about using our trademarks, privacy policy, terms of usage and other legal information at https://tidev.io/legal.
+4. Run the app using the Titanium SDK, and you'll see how Heroicons can be seamlessly incorporated into your mobile app's user interface.
+
+Feel free to customize, enhance, or adapt the example app to effectively use Heroicons in your own Titanium-based mobile applications.
+
+## Credits
+
+- [Titanium SDK](https://titaniumsdk.com) for cross-platform mobile app development.
+- [PurgeTSS](#)  A package that helps Titanium developers create visually appealing mobile apps.
+- [Heroicons](https://heroicons.com) by Tailwind Labs for providing beautiful SVG icons, the primary focus of this example app.
+
+Please ensure you respect the licensing and usage guidelines of the respective tools and components used in this example app.
+
+---
+
+*A Titanium SDK Example App created for educational purposes with a primary focus on showcasing Heroicons.*
