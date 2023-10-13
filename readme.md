@@ -29,8 +29,12 @@ First, make sure you have **PurgeTSS** installed globally on your machine:
 1. Download the `heroicons.zip` folder from this repository.
 2. Extract it into your project's `./purgetss/fonts/` folder.
 3. Run `purgetss build-fonts`.
-   1. This command will create the `./purgetss/styles/fonts.tss` file with all class definitions and `fontFamily` selectors.
-   2. It will also copy the font files into the `./app/assets/fonts` folder, for cross-platform compatibility.
+   - This command will create the `./purgetss/styles/fonts.tss` file with all class definitions and `fontFamily` selectors:
+      ```scss
+      '.hio': { font: { fontFamily: 'heroicons-outline' } }`
+      '.his': { font: { fontFamily: 'heroicons-solid' } }`
+      ```
+   - It will also copy the font files into the `./app/assets/fonts` folder, for cross-platform compatibility.
 
 Now, you can use them in your app's user interface elements, including `Labels`, `Buttons`, `TextFields` and `Tabs` (using [TiKit UI](https://purgetss.com/tikit#tabs)'s Tab Component).
 
@@ -73,11 +77,7 @@ Now, you can use them in your app's user interface elements, including `Labels`,
 Remember to credit **Tailwind Labs** for their fantastic work on the Heroicons collection, as all intellectual properties and design credits belong to them. This project simply aims to facilitate the integration of these icons into mobile applications, respecting their intellectual property rights.
 
 ## Example App
-Check out the Example App in the `app` folder, created to showcase the seamless integration of Heroicons into a mobile application developed with Titanium SDK, PurgeTSS and TiKit UI Components.
-
-<p align="center">
-  <img src="./images/example-app.png" alt="Heroicons" width="480">
-</p>
+Download the Example App `heroicons-app.zip`, created to showcase the seamless integration of Heroicons into a mobile application developed with Titanium SDK, PurgeTSS and TiKit UI Components. [Read More](./heroicons-app/README.md).
 
 ## License
 
