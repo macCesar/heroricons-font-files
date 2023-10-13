@@ -26,7 +26,7 @@ First, make sure you have **PurgeTSS** installed globally on your machine:
 > npm i -g purgetss
 ```
 
-1. Download the `heroicons.zip` folder from this repository.
+1. Download the `heroicons.zip` file from this repository.
 2. Extract it into your project's `./purgetss/fonts/` folder.
 3. Run `purgetss build-fonts`.
    - This command will create the `./purgetss/styles/fonts.tss` file with all class definitions and `fontFamily` selectors:
