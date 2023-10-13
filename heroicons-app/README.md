@@ -22,7 +22,7 @@ To run this example app and explore the usage of Heroicons in a Titanium-based m
 
 2. Clone or download this repository to your local machine.
 
-3. Open the app in your Titanium Studio or favorite code editor.
+3. Open the app in your favorite code editor.
 
 4. Run the `heroicons-app` folder using the Titanium SDK, and you'll see how Heroicons can be seamlessly incorporated into your mobile app's user interface.
 

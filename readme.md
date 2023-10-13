@@ -12,7 +12,7 @@ Heroicons are renowned for their beautiful and minimalist design, and they are w
 
 ## Project Overview
 
-This project provides TrueType format font files that enable seamless integration of Heroicons into your cross-platform mobile apps using [Titanium SDK](https://titaniumsdk.com) and [PurgeTSS](https://purgetss.com). These font files were generated using the [IcoMoon](https://icomoon.io/) tool.
+This project provides TrueType font files that enable seamless integration of Heroicons into your cross-platform mobile apps using [Titanium SDK](https://titaniumsdk.com) and [PurgeTSS](https://purgetss.com). These font files were generated using the [IcoMoon](https://icomoon.io/) tool.
 
 By using these font files, you can effortlessly incorporate Heroicons into your app's user interface.
 
