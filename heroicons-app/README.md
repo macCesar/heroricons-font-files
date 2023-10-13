@@ -11,7 +11,7 @@ The example app features a TabGroup with multiple tabs, with the primary focus o
 - The `TabGroup` showcases the potential use of TiKit UI's `Tab` Component and Icon Fonts for a cross-platform app, eliminating the need to create separate images with different resolutions, colors, and densities.
 
 <p align="center">
-  <img src="./app/assets/example-app.png" alt="Heroicons" width="480">
+  <img src="./app/assets/example-app-bezel.png" alt="Heroicons" width="600">
 </p>
 
 ## Usage

@@ -3,27 +3,34 @@
 // https://github.com/macCesar/purgeTSS
 
 // Ti Elements
+'Label': { color: '#020617', textColor: '#020617' }
 'View': { width: Ti.UI.SIZE, height: Ti.UI.SIZE }
-'Window': { backgroundColor: '#FFFFFF' }
+'Window': { backgroundColor: 'transparent' }
 
 // Main Styles
-'.active-tint-purple-900': { activeTintColor: '#581c87' }
-'.active-title-purple-900': { activeTitleColor: '#581c87' }
+'.active-tint-orange-500': { activeTintColor: '#f97316' }
+'.active-title-orange-600': { activeTitleColor: '#ea580c' }
+'.bg-gradient-to-t': { backgroundGradient: { type: 'linear', backfillStart: true, startPoint: { x: '0%', y: '0%' }, endPoint: { x: '0%', y: '100%' } } }
+'.from-orange-100': { backgroundGradient: { colors: [ '#00ffedd5', '#ffedd5' ] } }
 '.horizontal': { layout: 'horizontal' }
+'.large-title-enabled': { largeTitleEnabled: true }
 '.mt-2': { top: 8 }
 '.mt-4': { top: 16 }
+'.tabs-bg-orange-100': { tabsBackgroundColor: '#ffedd5' }
 '.text-3xl': { font: { fontSize: 30 } }
 '.text-4xl': { font: { fontSize: 36 } }
 '.text-sm': { font: { fontSize: 14 } }
-'.tint-green-600': { tint: '#16a34a', tintColor: '#16a34a' }
-'.title-green-600': { titleColor: '#16a34a' }
+'.tint-orange-400': { tint: '#fb923c', tintColor: '#fb923c' }
+'.title-orange-400': { titleColor: '#fb923c' }
+'.to-orange-400': { backgroundGradient: { colors: [ '#fb923c' ] } }
 '.vertical': { layout: 'vertical' }
 
 // Platform and Device Modifiers
 '.android:auto-tab-title[platform=android]': { autoTabTitle: true }
+'.android:bar-orange-400[platform=android]': { barColor: '#fb923c' }
 '.android:shift-mode-none[platform=android]': { shiftMode: 0 }
 '.android:style-tabs-bottom-navigation[platform=android]': { style: Ti.UI.Android.TABS_STYLE_BOTTOM_NAVIGATION }
-'.android:theme-titanium-light[platform=android]': { theme: 'Theme.Titanium.Light' }
+'.android:theme-titanium-light-solid[platform=android]': { theme: 'Theme.Titanium.Light.Solid' }
 
 // Font Styles
 '.hio': { font: { fontFamily: 'heroicons-outline' } }

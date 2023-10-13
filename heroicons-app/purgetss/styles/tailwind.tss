@@ -4,7 +4,7 @@
 // Tailwind-like styles
 // Generated with PurgeTSS
 // https://github.com/macCesar/purgeTSS
-// config.js file updated on: Thu Oct 12 2023 13:39:13 GMT-0500 (Central Daylight Time)
+// config.js file updated on: Thu Oct 12 2023 21:31:48 GMT-0500 (Central Daylight Time)
 
 // Ti Elements
 // Property: View
@@ -15,9 +15,13 @@
 // Description: A view to display a single image or series of animated images.
 'ImageView[platform=ios]': { hires: true }
 
+// Property: Label
+// Description: A text label, with an optional background image.
+'Label': { color: '#020617', textColor: '#020617' }
+
 // Property: Window
 // Description: The Window is an empty drawing surface or container.
-'Window': { backgroundColor: '#FFFFFF' }
+'Window': { backgroundColor: 'transparent' }
 
 // Utilities for controlling an element's margin.
 '.m-0': { top: 0, right: 0, bottom: 0, left: 0 }

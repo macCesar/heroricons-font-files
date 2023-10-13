@@ -1,7 +1,7 @@
 <Alloy>
-  <TabGroup class="title-green-600 tint-green-600 active-title-purple-900 active-tint-purple-900 android:theme-titanium-light android:shift-mode-none android:style-tabs-bottom-navigation android:auto-tab-title">
+  <TabGroup class="from-orange-100 to-orange-400 bg-gradient-to-t tabs-bg-orange-100 title-orange-400 tint-orange-400 active-title-orange-600 active-tint-orange-500 android:theme-titanium-light-solid android:bar-orange-400 android:shift-mode-none android:style-tabs-bottom-navigation android:auto-tab-title">
     <Tab module="tikit.ui" title="Icons" icon="hio hio-bell-alert text-3xl" activeIcon="his his-bell-alert text-3xl">
-      <Window title="Heroicons">
+      <Window title="Heroicons" class="large-title-enabled">
         <View class="vertical">
           <Label class="text-sm" text="Heroicons Outline" />
           <View class="mt-2 horizontal">
@@ -15,8 +15,8 @@
             <Label class="text-4xl hio hio-clipboard-document-list" />
           </View>
 
-          <Label class="text-sm mt-4" text="Heroicons Solid" />
-          <View class="horizontal mt-2">
+          <Label class="mt-4 text-sm" text="Heroicons Solid" />
+          <View class="mt-2 horizontal">
             <Label class="text-4xl his his-bell-alert" />
             <Label class="text-4xl his his-cloud-arrow-up" />
             <Label class="text-4xl his his-envelope" />
@@ -31,25 +31,25 @@
     </Tab>
 
     <Tab module="tikit.ui" title="CPU" icon="hio hio-cpu-chip text-3xl" activeIcon="his his-cpu-chip text-3xl">
-      <Window title="CPU-Chip">
+      <Window title="CPU-Chip" class="large-title-enabled">
         <Label text="CPU-Chip Window" />
       </Window>
     </Tab>
 
     <Tab module="tikit.ui" title="Info" icon="hio hio-identification text-3xl" activeIcon="his his-identification text-3xl">
-      <Window title="Info">
+      <Window title="Info" class="large-title-enabled">
         <Label text="Info Window" />
       </Window>
     </Tab>
 
     <Tab module="tikit.ui" title="Credit" icon="hio hio-credit-card text-3xl" activeIcon="his his-credit-card text-3xl">
-      <Window title="Credit">
+      <Window title="Credit" class="large-title-enabled">
         <Label text="Credit Window" />
       </Window>
     </Tab>
 
     <Tab module="tikit.ui" title="Settings" icon="hio hio-adjustments-horizontal text-3xl" activeIcon="his his-adjustments-horizontal text-3xl">
-      <Window title="Settings">
+      <Window title="Settings" class="large-title-enabled">
         <Label text="Settings Window" />
       </Window>
     </Tab>
