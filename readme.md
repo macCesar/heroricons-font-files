@@ -1,8 +1,11 @@
 # Heroicons Font Files
 
 <p align="center">
-  <a href="https://heroicons.com/" target="_blank">
-    <img src="./images/logo-light.svg" alt="Heroicons Logo" width="300">
+  <a href="https://heroicons.com/#gh-light-mode-only" target="_blank">
+    <img src="./.github/logo-light.svg" alt="Heroicons" width="300">
+  </a>
+  <a href="https://heroicons.com/#gh-dark-mode-only" target="_blank">
+    <img src="./.github/logo-dark.svg" alt="Heroicons" width="300">
   </a>
 </p>
 
@@ -54,8 +57,8 @@ Now, you can use them in your app's user interface elements, including `Labels`,
         <Label class="text-4xl hio hio-clipboard-document-list" />
       </View>
 
-      <Label class="text-sm mt-4" text="Heroicons Solid" />
-      <View class="horizontal mt-2">
+      <Label class="mt-4 text-sm" text="Heroicons Solid" />
+      <View class="mt-2 horizontal">
         <Label class="text-4xl his his-bell-alert" />
         <Label class="text-4xl his his-cloud-arrow-up" />
         <Label class="text-4xl his his-envelope" />
