@@ -24,7 +24,7 @@ To run this example app and explore the usage of Heroicons in a Titanium-based m
 
 3. Open the app in your favorite code editor.
 
-4. Run app to see how Heroicons can be seamlessly incorporated into your mobile app's user interface.
+4. Run they app to see how Heroicons can be seamlessly incorporated into your mobile app's user interface.
 
 Feel free to customize, enhance, or adapt the example app to effectively use Heroicons in your own Titanium-based mobile applications.
 
