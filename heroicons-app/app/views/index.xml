@@ -1,30 +1,30 @@
 <Alloy>
-  <TabGroup class="from-orange-100 to-orange-400 bg-gradient-to-t tabs-bg-orange-100 title-orange-400 tint-orange-400 active-title-orange-600 active-tint-orange-500 android:theme-titanium-light-solid android:bar-orange-400 android:shift-mode-none android:style-tabs-bottom-navigation android:auto-tab-title">
+  <TabGroup class="tabs-bg-orange-100 title-orange-400 tint-orange-400 active-title-orange-600 active-tint-orange-500 android:theme-titanium-light-solid android:bar-orange-400 android:shift-mode-none android:style-tabs-bottom-navigation android:auto-tab-title bg-gradient-to-t from-orange-100 to-orange-400">
     <Tab module="tikit.ui" title="Icons" icon="hio hio-bell-alert text-3xl" activeIcon="his his-bell-alert text-3xl">
       <Window title="Heroicons" class="large-title-enabled">
         <View class="vertical">
           <Label class="text-sm" text="Heroicons Outline" />
-          <View class="mt-2 horizontal">
-            <Label class="text-4xl hio hio-bell-alert" />
-            <Label class="text-4xl hio hio-cloud-arrow-up" />
-            <Label class="text-4xl hio hio-envelope" />
-            <Label class="text-4xl hio hio-rocket-launch" />
-            <Label class="text-4xl hio hio-wrench-screwdriver" />
-            <Label class="text-4xl hio hio-briefcase" />
-            <Label class="text-4xl hio hio-archive-box" />
-            <Label class="text-4xl hio hio-clipboard-document-list" />
+          <View class="horizontal mt-2">
+            <Label class="hio hio-bell-alert text-4xl" />
+            <Label class="hio hio-cloud-arrow-up text-4xl" />
+            <Label class="hio hio-envelope text-4xl" />
+            <Label class="hio hio-rocket-launch text-4xl" />
+            <Label class="hio hio-wrench-screwdriver text-4xl" />
+            <Label class="hio hio-briefcase text-4xl" />
+            <Label class="hio hio-archive-box text-4xl" />
+            <Label class="hio hio-clipboard-document-list text-4xl" />
           </View>
 
           <Label class="mt-4 text-sm" text="Heroicons Solid" />
-          <View class="mt-2 horizontal">
-            <Label class="text-4xl his his-bell-alert" />
-            <Label class="text-4xl his his-cloud-arrow-up" />
-            <Label class="text-4xl his his-envelope" />
-            <Label class="text-4xl his his-rocket-launch" />
-            <Label class="text-4xl his his-wrench-screwdriver" />
-            <Label class="text-4xl his his-briefcase" />
-            <Label class="text-4xl his his-archive-box" />
-            <Label class="text-4xl his his-clipboard-document-list" />
+          <View class="horizontal mt-2">
+            <Label class="his his-bell-alert text-4xl" />
+            <Label class="his his-cloud-arrow-up text-4xl" />
+            <Label class="his his-envelope text-4xl" />
+            <Label class="his his-rocket-launch text-4xl" />
+            <Label class="his his-wrench-screwdriver text-4xl" />
+            <Label class="his his-briefcase text-4xl" />
+            <Label class="his his-archive-box text-4xl" />
+            <Label class="his his-clipboard-document-list text-4xl" />
           </View>
         </View>
       </Window>

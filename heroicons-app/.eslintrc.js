@@ -1,35 +1,13 @@
 module.exports = {
   extends: 'axway/env-alloy',
-  globals: {
-    $model: true
-  },
-  parserOptions: {
-    ecmaVersion: 'latest'
-  },
+  globals: { task: true, $model: true },
+  parserOptions: { ecmaVersion: 'latest' },
   rules: {
-    indent: [
-      'error',
-      2,
-      { SwitchCase: 1 }
-    ],
-    quotes: [
-      'error',
-      'single'
-    ],
-    semi: [
-      'error',
-      'never'
-    ],
-    'max-statements-per-line': [
-      'error',
-      { max: 1 }
-    ],
-    'space-before-function-paren': [
-      'error',
-      'never'
-    ],
-    'array-bracket-spacing': [
-      'error', 'never'
-    ]
+    semi: ['error', 'never'],
+    quotes: ['error', 'single'],
+    indent: ['error', 2, { SwitchCase: 1 }],
+    'array-bracket-spacing': ['error', 'never'],
+    'max-statements-per-line': ['error', { max: 2 }],
+    'space-before-function-paren': ['error', 'never']
   }
 }

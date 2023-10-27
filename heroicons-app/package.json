@@ -11,8 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.50.0",
+    "eslint": "^8.52.0",
     "eslint-config-axway": "^8.0.0",
-    "eslint-plugin-alloy": "^1.2.1"
+    "eslint-plugin-alloy": "^1.2.1",
+    "tailwindcss": "^3.3.5"
   }
 }
