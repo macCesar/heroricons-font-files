@@ -1,6 +1,6 @@
-// PurgeTSS v6.2.39
+// PurgeTSS v6.2.43
 // Created by César Estrada
-// https://github.com/macCesar/purgeTSS
+// https://purgetss.com
 
 // Ti Elements
 'Label': { color: '#020617', textColor: '#020617' }
@@ -20,7 +20,7 @@
 '.text-3xl': { font: { fontSize: 30 } }
 '.text-4xl': { font: { fontSize: 36 } }
 '.text-sm': { font: { fontSize: 14 } }
-'.tint-orange-400': { tint: '#fb923c', tintColor: '#fb923c' }
+'.tint-orange-400': { tint: '#fb923c' }
 '.title-orange-400': { titleColor: '#fb923c' }
 '.to-orange-400': { backgroundGradient: { colors: [ '#fb923c' ] } }
 '.vertical': { layout: 'vertical' }
@@ -36,26 +36,26 @@
 '.hio': { font: { fontFamily: 'heroicons-outline' } }
 '.hio-adjustments-horizontal': { text: '\ue901', title: '\ue901' }
 '.hio-archive-box': { text: '\ue905', title: '\ue905' }
-'.hio-bell-alert': { text: '\ue93f', title: '\ue93f' }
-'.hio-briefcase': { text: '\ue949', title: '\ue949' }
-'.hio-clipboard-document-list': { text: '\ue96c', title: '\ue96c' }
-'.hio-cloud-arrow-up': { text: '\ue971', title: '\ue971' }
-'.hio-cpu-chip': { text: '\ue97a', title: '\ue97a' }
-'.hio-credit-card': { text: '\ue97b', title: '\ue97b' }
-'.hio-envelope': { text: '\ue996', title: '\ue996' }
-'.hio-identification': { text: '\ue9b7', title: '\ue9b7' }
-'.hio-rocket-launch': { text: '\ue9f2', title: '\ue9f2' }
-'.hio-wrench-screwdriver': { text: '\uea20', title: '\uea20' }
+'.hio-bell-alert': { text: '\ue943', title: '\ue943' }
+'.hio-briefcase': { text: '\ue94d', title: '\ue94d' }
+'.hio-clipboard-document-list': { text: '\ue970', title: '\ue970' }
+'.hio-cloud-arrow-up': { text: '\ue975', title: '\ue975' }
+'.hio-cpu-chip': { text: '\ue97e', title: '\ue97e' }
+'.hio-credit-card': { text: '\ue97f', title: '\ue97f' }
+'.hio-envelope': { text: '\ue99a', title: '\ue99a' }
+'.hio-identification': { text: '\ue9bb', title: '\ue9bb' }
+'.hio-rocket-launch': { text: '\ue9f6', title: '\ue9f6' }
+'.hio-wrench-screwdriver': { text: '\uea24', title: '\uea24' }
 '.his': { font: { fontFamily: 'heroicons-solid' } }
 '.his-adjustments-horizontal': { text: '\ue901', title: '\ue901' }
 '.his-archive-box': { text: '\ue905', title: '\ue905' }
-'.his-bell-alert': { text: '\ue93f', title: '\ue93f' }
-'.his-briefcase': { text: '\ue949', title: '\ue949' }
-'.his-clipboard-document-list': { text: '\ue96c', title: '\ue96c' }
-'.his-cloud-arrow-up': { text: '\ue971', title: '\ue971' }
-'.his-cpu-chip': { text: '\ue97a', title: '\ue97a' }
-'.his-credit-card': { text: '\ue97b', title: '\ue97b' }
-'.his-envelope': { text: '\ue996', title: '\ue996' }
-'.his-identification': { text: '\ue9b7', title: '\ue9b7' }
-'.his-rocket-launch': { text: '\ue9f2', title: '\ue9f2' }
-'.his-wrench-screwdriver': { text: '\uea20', title: '\uea20' }
+'.his-bell-alert': { text: '\ue943', title: '\ue943' }
+'.his-briefcase': { text: '\ue94d', title: '\ue94d' }
+'.his-clipboard-document-list': { text: '\ue970', title: '\ue970' }
+'.his-cloud-arrow-up': { text: '\ue975', title: '\ue975' }
+'.his-cpu-chip': { text: '\ue97e', title: '\ue97e' }
+'.his-credit-card': { text: '\ue97f', title: '\ue97f' }
+'.his-envelope': { text: '\ue99a', title: '\ue99a' }
+'.his-identification': { text: '\ue9bb', title: '\ue9bb' }
+'.his-rocket-launch': { text: '\ue9f6', title: '\ue9f6' }
+'.his-wrench-screwdriver': { text: '\uea24', title: '\uea24' }
